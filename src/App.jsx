@@ -1,13 +1,28 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import NevBar from './Component/NevBar'
+import Body from './Component/Body'
+import Feature from './Component/Feature'
+import Box from './Component/stylebox/Box'
+import Advantages from './Component/Advantages'
+import Testimonial from './Component/Testimonial'
+import Faq from './Component/Faq'
+import ReadyStart from './Component/ReadyStart'
+import Footer from './Component/Footer'
 
 function App() {
 
   return (
-    <div>
-      <p className='border-2 border-red-500 border-solid'>sfsnf skdvnos vsvosbv</p>
+    <div className=' ml-36 pr-2'>
+      <NevBar/>
+      <Body/>
+      <Feature/>
+      <Advantages/>
+      <Testimonial/>
+      <Faq/>
+      <ReadyStart/>
+      <Footer/>
+      {/* <Box/> */}
     </div>
   )
 }
